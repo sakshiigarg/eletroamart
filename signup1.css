@@ -1,0 +1,54 @@
+body{
+  background-color: ;
+  margin: 0px;
+}
+#form{
+  z-index: 2;
+  position: absolute;
+  background-color: #00ffffff;
+  opacity:.9;
+  left:30%;
+  top: 20%;
+}
+#banner{
+  background-image: url('img2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  filter: blur(5px);
+  position: fixed;
+  z-index: 1;
+}
+
+.block{
+  text-align: center;
+  font-size: 30px;
+  color:#27FF00;
+  margin:50px;
+}
+input[type=text]
+{
+  font-size: 20px;
+  width: 400px;
+  border-style: solid;
+
+  }
+input[type=password]{
+  font-size: 20px;
+  width: 400px;
+  border-style: solid;
+
+}
+input[type=submit]
+{
+  position: absolute;
+  left: 40%;
+  margin: 10px;
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  background-color: orange;
+  font-family: sans-serif;
+  cursor: pointer;
+}

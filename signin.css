@@ -1,0 +1,45 @@
+.log-title{
+  background-image: url('img3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  filter: blur();
+  position: fixed;
+  z-index: 1;
+}
+#form{
+  position: absolute;
+  z-index: 2;
+  left:25%;
+  color:white;
+  top: 30%;
+  font-size: 20px;
+  margin: 20px;
+  width: 40%;
+  height: 40%;
+   background: rgba(130,130,130,.4);
+
+}
+body{
+  margin: 0px;
+  background-color: ;
+}
+
+input[type=text]
+{
+  margin-top: 90px;
+  font-size: 15px;
+  width: 30%;
+}
+input[type=password]
+{
+  font-size: 15px;
+  width: 30%;
+}
+input[type=submit]{
+  margin: 30px;
+  font-size: 20px;
+  width: 60px;
+  background-color: orange;
+}

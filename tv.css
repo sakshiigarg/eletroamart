@@ -1,0 +1,85 @@
+body{
+  margin: 0px;
+  background-color: ;
+}
+#title{
+  padding:50px;
+  font-size: 25px;
+}
+header>a{
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+  font-family: sans-serif;
+}
+#signout
+{
+  float:right;
+  margin-right: 20px;
+  font-family: sans-serif;
+  margin-top: 5px;
+}
+header{
+  padding: 10px;
+  background-color: black;
+  height: 30px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  opacity: .9;
+}
+div{
+  background-color: white;
+  margin:20px;
+}
+.pro-img1{
+  height: 350px;
+  width: 320px;
+  position:absolute ;
+  top: 30%;
+}
+.desc1{
+  width:  70%;
+  margin-left: 350px;
+  height: 75%;
+  margin-top: 150px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+input[type=submit]{
+  background-color: orange;
+  width: 30%;
+}
+input[type=submit]
+{
+  box-shadow: 0 0 5px black;
+  cursor: pointer;
+}
+.pro-img2{
+  height: 350px;
+  width: 320px;
+  position:absolute ;
+  top: 110%;
+}
+.desc2{
+  width:  70%;
+  margin-left: 350px;
+  height: 75%;
+  margin-top: 50px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.pro-img3{
+  height: 350px;
+  width: 320px;
+  position:absolute ;
+  top: 190%;
+}
+.desc3{
+  width:  70%;
+  margin-left: 350px;
+  height: 75%;
+  margin-top: 50px;
+  font-size: 20px;
+  font-family: sans-serif;
+}

@@ -1,0 +1,58 @@
+body{
+  background-color:;
+  margin: 0px;
+}
+header{
+  padding: 10px;
+  background-color: black;
+  height: 30px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  opacity: .7;
+  z-index: 2;
+}
+header>a{
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+#banner{
+  background-image: url('img1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  filter: blur(px);
+  position: fixed;
+  z-index: 1;
+}
+form{
+position: absolute;
+z-index: 2;
+background: rgba(130,130,130,.5);
+font-size: 30px;
+top: 20%;
+left: 30%;
+color: gold;
+font-family: sans-serif;
+}
+input{
+  margin:10px;
+}
+input[type=text]{
+  width: 30%;
+}
+input[type=password]{
+  width: 30%;
+}
+input[type=number]{
+  width: 30%;
+}
+input[type=submit]{
+  background-color: orange;
+  font-size: 20px;
+}
+input[type=submit]:hover{
+  cursor: pointer;
+}
