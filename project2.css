@@ -1,0 +1,95 @@
+body{
+  margin: 0px;
+}
+#banner{
+  background-image: url('3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  filter: blur(3px);
+  position: fixed;
+  z-index: 1;
+}
+header{
+  padding: 10px;
+  background-color: black;
+  height: 30px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  opacity: .7;
+  z-index: 2;
+}
+header>a{
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+#home{
+  font-family: sans-serif;
+}
+#signin
+{
+  margin-right: 20px;
+  font-family: sans-serif;
+  float: right;
+  padding-top: 5px;
+}
+#signup
+{
+  font-family: sans-serif;
+  float: right;
+  padding-top: 5px;
+}
+#title{
+  padding:50px;
+  font-size: 25px;
+}
+#tv{
+
+  width: 60%;
+  height: 200px;
+  position: absolute;
+  top: 100px;
+  left: 20%;
+  background-color: purple;
+  z-index: 3;
+  opacity: .9;
+
+}
+#speakers{
+  width: 60%;;
+  height: 200px;
+  position: absolute;
+  top: 350px;
+  left: 20%;
+  background-color: black;
+  z-index: 3;
+  opacity: .9;
+}
+#dslr{
+  width: 60%;;
+  height: 200px;
+  position: absolute;
+  top: 600px;
+  left: 20%;
+  background-color: #18B409;
+  z-index: 3;
+  opacity: .9;
+}
+#tv1{
+  float: right;
+  height: 160px;
+  width: 180px;
+  padding: 20px;
+
+}
+pre{
+  margin-left: 50px;
+  margin-top: 60px;
+  font-size: 20px;
+  font-family: sans-serif;
+  float: left;
+  color: white;
+}
